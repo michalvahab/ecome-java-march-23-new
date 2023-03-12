@@ -2,7 +2,7 @@ package lesson01.classTasks;
 
 public class variabies {
     public static void main(String[] args) {
-        byte myByte = 12;
+        byte myByte = 25;
         short myShort;
         myShort=345;
 
