@@ -18,9 +18,12 @@ public class ScannerHomeTask {
 
         System.out.println("firstname = " + firstname);
         System.out.println("lastname = " + lastname);
+        
         System.out.println("City = " + City);
         System.out.println("Average = " + Average);
+
         System.out.println("Age = " + Age);
+
 
 
     }
