@@ -8,8 +8,9 @@ public class ComparisonTask {
         System.out.println(35 + "<=" + 50 + "- " + (35 <= 50));
         System.out.println(25 + "==" + 25 + "- " + (25 == 25));
         System.out.println(50 + "!=" + 50 + "- " + (50 != 50));
-        System.out.println("city" + "==" + "city" + " - " + ("city" == "city"));
-        System.out.println("city" + "==" + "citY".equalsIgnoreCase("citY"));
+        System.out.println("city.equals(city)="+"city".equals("city"));
+        System.out.println("city.equalsIgnoreCase(citY)="+"city".equalsIgnoreCase("citY"));
+
 
     }
 
