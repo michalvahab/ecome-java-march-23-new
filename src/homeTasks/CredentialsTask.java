@@ -21,11 +21,9 @@ public class CredentialsTask {
             System.out.println("welcome to michalvahab ");
 
 
-        }
-        else {
+        } else {
             System.out.println("No such user exists");
-    }
-
+        }
 
 
     }
