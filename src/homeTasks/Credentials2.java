@@ -4,19 +4,28 @@ import java.util.Scanner;
 
 public class Credentials2 {
     public static void main(String[] args) {
-String result;
-        String savedUsername = "michalvahab";
-        String savedPassword = "Mv";
+String login;
+
+        String saveUsername = "fullName";
+
+        String  savePassword = "password";
 
 
         Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
 
 
+
         System.out.println("write your username");
-        String username = input.nextLine();
+        String actualUsername = input.nextLine();
         System.out.println("write your password");
-        String password = input2.nextLine();
-       result= (savedUsername.equals(username) && savedPassword.equals(password))? "welcome to michalvahab: " suchUser exists";
+        String actualPassword =input2.nextLine();
+        login= ((actualUsername.equals(saveUsername)) && ( savePassword.equals(actualPassword))) ?("welcome to" +actualUsername ):"No such user exists";
+
+
+
+
+
+            }
     }
-}
+
