@@ -29,15 +29,15 @@ public class countries {
 
         System.out.println("=========for======");
 
-        for (int i = 0; i > countries.size(); i++) {
+        for (int i = 0; i < countries.size(); i++) {
             System.out.println(i);
 
         }
 
         System.out.println("===========while=============");
-      
+
         int i = 0;
-        while (i > countries.size()) {
+        while (i < countries.size()) {
             System.out.println(i);
             i++;
 
